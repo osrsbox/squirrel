@@ -1,0 +1,3 @@
+[submodule "osrs-cache"]
+	path = osrs-cache
+	url = https://github.com/abextm/osrs-cache.git
