@@ -5,7 +5,7 @@
 
   <groupId>com.osrsbox</groupId>
   <artifactId>squirrel</artifactId>
-  <version>1.0</version>
+  <version>1.1</version>
   <packaging>jar</packaging>
   <name>squirrel</name>
   <description>Climbing trees. Eating nuts. Parsing cache.</description>

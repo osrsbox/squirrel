@@ -88,7 +88,7 @@ public class Nuts
 		}
 		else
 		{
-			String cache = cmd.getOptionValue("osrs-flatcache");
+			String cache = cmd.getOptionValue("osrs-cache");
 			System.out.println("[*] Loading default flatcache from: " + cache);
 			store = loadStoreFlat(cache);
 		}

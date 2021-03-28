@@ -133,6 +133,10 @@ If you are semi-worried. Check the MD5 or SHA1 hash values of the `squirrel.jar`
 # Version 1.0 hashes
 f9130a95882f18f566667c10353690bb  squirrel.jar
 7508e720399489654c8d83b8e66336172ce92682  squirrel.jar
+
+# Version 1.1 hashes
+d993ed76e99300da9986f9212033ffa4  squirrel.jar
+68a7aecfb9f6ca55d2552df8a4627a77e7e5876e  squirrel.jar
 ```
 
 ## Tests
