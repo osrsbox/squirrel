@@ -54,7 +54,7 @@ java -jar squirrel.jar -v
 If you want to update the `osrs-cache` submodule (which I will probably not constantly update after each weekly update) just use git. For example, in the root folder run:
 
 ```
-git submodule update --init
+git submodule update --recursive --remote
 ```
 
 ## Using a Specific Cache Version
@@ -127,17 +127,7 @@ The project configuration (`pom.xml` file) specifies for an uber-jar to be creat
 
 If you are really worried. Check the source code, then compile yourself :)
 
-If you are semi-worried. Check the MD5 or SHA1 hash values of the `squirrel.jar` file:
-
-```
-# Version 1.0 hashes
-f9130a95882f18f566667c10353690bb  squirrel.jar
-7508e720399489654c8d83b8e66336172ce92682  squirrel.jar
-
-# Version 1.1 hashes
-d993ed76e99300da9986f9212033ffa4  squirrel.jar
-68a7aecfb9f6ca55d2552df8a4627a77e7e5876e  squirrel.jar
-```
+If you are semi-worried. Check the MD5 or SHA1 hash values of the `squirrel.jar` file - available in the `CHANGELOG.md` file.
 
 ## Tests
 

@@ -88,7 +88,7 @@ public class Nuts
 		}
 		else
 		{
-			String cache = cmd.getOptionValue("osrs-cache");
+			String cache = "osrs-cache";
 			System.out.println("[*] Loading default flatcache from: " + cache);
 			store = loadStoreFlat(cache);
 		}
@@ -114,7 +114,7 @@ public class Nuts
 
 			if (npcdir == null)
 			{
-				npcdir = "dumped-objects";
+				npcdir = "dumped-npcs";
 			}
 
 			System.out.println("[*] Dumping npcs to: " + npcdir);
