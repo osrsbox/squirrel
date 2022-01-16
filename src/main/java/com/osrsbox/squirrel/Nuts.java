@@ -37,10 +37,10 @@ public class Nuts
 		options.addOption("c", "cache", true, "Load cache from specific target folder");
 		options.addOption("f", "flatcache", true, "Load flat cache from specific target folder");
 		
-		options.addOption("i", "items", false, "Dump ItemDefinitions in JSON to specific target folder");
-		options.addOption("n", "npcs", false, "Dump NpcDefinitions in JSON to specific target folder");
-		options.addOption("o", "objects", false, "Dump ObjectDefinitions in JSON to specific target folder");
-		options.addOption("m", "models", false, "Dump models in OBJ + MTL to specific target folder");
+		options.addOption("i", "items", true, "Dump ItemDefinitions in JSON to specific target folder");
+		options.addOption("n", "npcs", true, "Dump NpcDefinitions in JSON to specific target folder");
+		options.addOption("o", "objects", true, "Dump ObjectDefinitions in JSON to specific target folder");
+		options.addOption("m", "models", true, "Dump models in OBJ + MTL to specific target folder");
 
 		CommandLineParser parser = new DefaultParser();
 		CommandLine cmd;
